@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--AgileJ Ltd. (http://www.agilej.com)--><ajsv>
+    <diagram creationDate="2016-мая-30 13:22" licenseGrade="evaluation" licenseeName="anon" licenseeOrganization="unknown" populationMethod="dependency" version="1.8.3.v20151019-2113">
+        <filterScript>
+
+// by dependency generator
+hide field lines
+hide inheritance lines
+hide method lines
+hide call lines
+show bytecode types in gray
+show all interfaces in blue
+show abstract classes in pink
+
+</filterScript>
+        <class className="manager.Connector" project="DistributedStorage" xLocation="395" yLocation="542"/>
+        <class className="manager.Connector2" project="DistributedStorage" xLocation="149" yLocation="1030"/>
+        <class className="manager.Connector3" project="DistributedStorage" xLocation="1301" yLocation="94"/>
+        <class className="manager.Connector6" project="DistributedStorage" xLocation="200" yLocation="30"/>
+        <class className="dao.DaoFactory" project="DistributedStorage" xLocation="2013" yLocation="328"/>
+        <class className="manager.Connector4" project="DistributedStorage" xLocation="1209" yLocation="508"/>
+        <class className="manager.Connector5" project="DistributedStorage" xLocation="521" yLocation="790"/>
+        <class className="dao.DaoUser" project="DistributedStorage" xLocation="30" yLocation="269"/>
+    </diagram>
+</ajsv>

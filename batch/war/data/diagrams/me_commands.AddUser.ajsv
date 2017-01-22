@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--AgileJ Ltd. (http://www.agilej.com)--><ajsv>
+    <diagram creationDate="2016-мая-30 13:54" licenseGrade="evaluation" licenseeName="anon" licenseeOrganization="unknown" populationMethod="manual" version="1.8.3.v20151019-2113">
+        <filterScript>
+
+// by method call generator
+hide field lines
+hide inheritance lines
+hide method lines
+hide dependency lines
+hide all fields
+show bytecode types in gray
+show all interfaces in blue
+show abstract classes in pink
+
+</filterScript>
+        <class className="dao.DaoUser" project="DistributedStorage" xLocation="-55" yLocation="76"/>
+        <class className="servlet.Dispatcher" project="DistributedStorage" xLocation="1115" yLocation="192"/>
+        <class className="commands.AddUser" project="DistributedStorage" xLocation="-156" yLocation="263"/>
+        <class className="dao.DaoFactory" project="DistributedStorage" xLocation="986" yLocation="353"/>
+    </diagram>
+</ajsv>

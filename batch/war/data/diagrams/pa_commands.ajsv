@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--AgileJ Ltd. (http://www.agilej.com)--><ajsv>
+    <diagram creationDate="2016-мая-30 13:22" licenseGrade="evaluation" licenseeName="anon" licenseeOrganization="unknown" populationMethod="package" version="1.8.3.v20151019-2113">
+        <filterScript>
+
+// by package generator
+hide dependency lines
+show all interfaces in blue
+show abstract classes in pink
+
+</filterScript>
+        <class className="commands.Execute" project="DistributedStorage" xLocation="30" yLocation="62"/>
+        <class className="commands.LogOut" project="DistributedStorage" xLocation="940" yLocation="30"/>
+        <class className="commands.AddUser" project="DistributedStorage" xLocation="1382" yLocation="315"/>
+        <class className="commands.CheckUser" project="DistributedStorage" xLocation="416" yLocation="305"/>
+    </diagram>
+</ajsv>

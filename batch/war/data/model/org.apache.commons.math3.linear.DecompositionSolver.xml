@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AgileJWebModel version="1.8.3.v20151019-2113">
+    <type deep="true" displayTextTemplate="org.apache.commons.math3.linear.DecompositionSolver" elementName="DecompositionSolver" fileNameKey="org.apache.commons.math3.linear.DecompositionSolver.xml" formalDisplayName="DecompositionSolver" isBinary="true" isClass="false" isDeprecated="false" isEnum="false" isInterface="true" isPrimitive="false" isTopLevel="true" javaProjectName="DistributedStorage" modelMemberIdentifier="type:org.apache.commons.math3.linear.DecompositionSolver" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.DecompositionSolver">
+        <filters>
+            <filter signature="all interfaces"/>
+            <filter signature="all types"/>
+            <filter signature="bytecode types"/>
+            <filter signature="inner types named {type-name}" switchValues="DecompositionSolver"/>
+            <filter signature="members of package {package-name}" switchValues="org.apache.commons.math3.linear"/>
+            <filter signature="non java star package types"/>
+            <filter signature="public types"/>
+            <filter signature="top level types"/>
+            <filter signature="types named {type-name-pattern}" switchValues="DecompositionSolver"/>
+        </filters>
+        <outermostType>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.DecompositionSolver" elementName="DecompositionSolver" formalDisplayName="DecompositionSolver" modelMemberIdentifier="type:org.apache.commons.math3.linear.DecompositionSolver" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.DecompositionSolver"/>
+        </outermostType>
+        <method deep="true" elementName="solve" isBinary="true" isDeprecated="false" modelMemberIdentifier="method:org.apache.commons.math3.linear.DecompositionSolver.solve((Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/RealVector;)" modifiers="abstract,public,">
+            <filters>
+                <filter signature="all methods"/>
+                <filter signature="all operations"/>
+                <filter signature="methods named {method-name-pattern}" switchValues="solve"/>
+                <filter signature="methods of {method-owner}" switchValues="DecompositionSolver"/>
+                <filter signature="overloaded methods"/>
+                <filter signature="overridden methods"/>
+                <filter signature="public methods"/>
+            </filters>
+            <declarer>
+                <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.DecompositionSolver" elementName="DecompositionSolver" formalDisplayName="DecompositionSolver" modelMemberIdentifier="type:org.apache.commons.math3.linear.DecompositionSolver" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.DecompositionSolver"/>
+            </declarer>
+            <exceptions>
+                <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.SingularMatrixException" elementName="SingularMatrixException" formalDisplayName="SingularMatrixException" modelMemberIdentifier="type:org.apache.commons.math3.linear.SingularMatrixException" modifiers="public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.SingularMatrixException"/>
+            </exceptions>
+            <return>
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.RealVector" elementName="RealVector" formalDisplayName="RealVector" modelMemberIdentifier="type:org.apache.commons.math3.linear.RealVector" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.RealVector"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.RealVector" elementName="RealVector" formalDisplayName="RealVector" modelMemberIdentifier="type:org.apache.commons.math3.linear.RealVector" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.RealVector"/>
+                    </containedType>
+                </typeReference>
+            </return>
+            <parameter name="arg0">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.RealVector" elementName="RealVector" formalDisplayName="RealVector" modelMemberIdentifier="type:org.apache.commons.math3.linear.RealVector" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.RealVector"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.RealVector" elementName="RealVector" formalDisplayName="RealVector" modelMemberIdentifier="type:org.apache.commons.math3.linear.RealVector" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.RealVector"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <calledMethods/>
+        </method>
+        <method deep="true" elementName="solve" isBinary="true" isDeprecated="false" modelMemberIdentifier="method:org.apache.commons.math3.linear.DecompositionSolver.solve((Lorg/apache/commons/math3/linear/RealMatrix;)Lorg/apache/commons/math3/linear/RealMatrix;)" modifiers="abstract,public,">
+            <filters>
+                <filter signature="all methods"/>
+                <filter signature="all operations"/>
+                <filter signature="methods named {method-name-pattern}" switchValues="solve"/>
+                <filter signature="methods of {method-owner}" switchValues="DecompositionSolver"/>
+                <filter signature="overloaded methods"/>
+                <filter signature="overridden methods"/>
+                <filter signature="public methods"/>
+            </filters>
+            <declarer>
+                <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.DecompositionSolver" elementName="DecompositionSolver" formalDisplayName="DecompositionSolver" modelMemberIdentifier="type:org.apache.commons.math3.linear.DecompositionSolver" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.DecompositionSolver"/>
+            </declarer>
+            <exceptions>
+                <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.SingularMatrixException" elementName="SingularMatrixException" formalDisplayName="SingularMatrixException" modelMemberIdentifier="type:org.apache.commons.math3.linear.SingularMatrixException" modifiers="public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.SingularMatrixException"/>
+            </exceptions>
+            <return>
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.RealMatrix" elementName="RealMatrix" formalDisplayName="RealMatrix" modelMemberIdentifier="type:org.apache.commons.math3.linear.RealMatrix" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.RealMatrix"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.RealMatrix" elementName="RealMatrix" formalDisplayName="RealMatrix" modelMemberIdentifier="type:org.apache.commons.math3.linear.RealMatrix" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.RealMatrix"/>
+                    </containedType>
+                </typeReference>
+            </return>
+            <parameter name="arg0">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.RealMatrix" elementName="RealMatrix" formalDisplayName="RealMatrix" modelMemberIdentifier="type:org.apache.commons.math3.linear.RealMatrix" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.RealMatrix"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.RealMatrix" elementName="RealMatrix" formalDisplayName="RealMatrix" modelMemberIdentifier="type:org.apache.commons.math3.linear.RealMatrix" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.RealMatrix"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <calledMethods/>
+        </method>
+        <method deep="true" elementName="isNonSingular" isBinary="true" isDeprecated="false" modelMemberIdentifier="method:org.apache.commons.math3.linear.DecompositionSolver.isNonSingular(()Z)" modifiers="abstract,public,">
+            <filters>
+                <filter signature="all methods"/>
+                <filter signature="all operations"/>
+                <filter signature="getter methods"/>
+                <filter signature="methods named {method-name-pattern}" switchValues="isNonSingular"/>
+                <filter signature="methods of {method-owner}" switchValues="DecompositionSolver"/>
+                <filter signature="overridden methods"/>
+                <filter signature="public methods"/>
+            </filters>
+            <declarer>
+                <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.DecompositionSolver" elementName="DecompositionSolver" formalDisplayName="DecompositionSolver" modelMemberIdentifier="type:org.apache.commons.math3.linear.DecompositionSolver" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.DecompositionSolver"/>
+            </declarer>
+            <return>
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="boolean" elementName="boolean" formalDisplayName="boolean" modelMemberIdentifier="type:boolean" modifiers="" packageName="" qualifiedName="boolean"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="boolean" elementName="boolean" formalDisplayName="boolean" modelMemberIdentifier="type:boolean" modifiers="" packageName="" qualifiedName="boolean"/>
+                    </containedType>
+                </typeReference>
+            </return>
+            <calledMethods/>
+        </method>
+        <method deep="true" elementName="getInverse" isBinary="true" isDeprecated="false" modelMemberIdentifier="method:org.apache.commons.math3.linear.DecompositionSolver.getInverse(()Lorg/apache/commons/math3/linear/RealMatrix;)" modifiers="abstract,public,">
+            <filters>
+                <filter signature="all methods"/>
+                <filter signature="all operations"/>
+                <filter signature="getter methods"/>
+                <filter signature="methods named {method-name-pattern}" switchValues="getInverse"/>
+                <filter signature="methods of {method-owner}" switchValues="DecompositionSolver"/>
+                <filter signature="overridden methods"/>
+                <filter signature="public methods"/>
+            </filters>
+            <declarer>
+                <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.DecompositionSolver" elementName="DecompositionSolver" formalDisplayName="DecompositionSolver" modelMemberIdentifier="type:org.apache.commons.math3.linear.DecompositionSolver" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.DecompositionSolver"/>
+            </declarer>
+            <exceptions>
+                <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.SingularMatrixException" elementName="SingularMatrixException" formalDisplayName="SingularMatrixException" modelMemberIdentifier="type:org.apache.commons.math3.linear.SingularMatrixException" modifiers="public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.SingularMatrixException"/>
+            </exceptions>
+            <return>
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.RealMatrix" elementName="RealMatrix" formalDisplayName="RealMatrix" modelMemberIdentifier="type:org.apache.commons.math3.linear.RealMatrix" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.RealMatrix"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.RealMatrix" elementName="RealMatrix" formalDisplayName="RealMatrix" modelMemberIdentifier="type:org.apache.commons.math3.linear.RealMatrix" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.RealMatrix"/>
+                    </containedType>
+                </typeReference>
+            </return>
+            <calledMethods/>
+        </method>
+        <nonRecursiveSubtypes>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.CholeskyDecomposition.Solver" elementName="Solver" formalDisplayName="Solver" modelMemberIdentifier="type:org.apache.commons.math3.linear.CholeskyDecomposition$Solver" modifiers="private,static," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.CholeskyDecomposition$Solver"/>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.EigenDecomposition.Solver" elementName="Solver" formalDisplayName="Solver" modelMemberIdentifier="type:org.apache.commons.math3.linear.EigenDecomposition$Solver" modifiers="private,static," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.EigenDecomposition$Solver"/>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.LUDecomposition.Solver" elementName="Solver" formalDisplayName="Solver" modelMemberIdentifier="type:org.apache.commons.math3.linear.LUDecomposition$Solver" modifiers="private,static," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.LUDecomposition$Solver"/>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.QRDecomposition.Solver" elementName="Solver" formalDisplayName="Solver" modelMemberIdentifier="type:org.apache.commons.math3.linear.QRDecomposition$Solver" modifiers="private,static," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.QRDecomposition$Solver"/>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.RRQRDecomposition.Solver" elementName="Solver" formalDisplayName="Solver" modelMemberIdentifier="type:org.apache.commons.math3.linear.RRQRDecomposition$Solver" modifiers="private,static," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.RRQRDecomposition$Solver"/>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.SingularValueDecomposition.Solver" elementName="Solver" formalDisplayName="Solver" modelMemberIdentifier="type:org.apache.commons.math3.linear.SingularValueDecomposition$Solver" modifiers="private,static," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.SingularValueDecomposition$Solver"/>
+        </nonRecursiveSubtypes>
+        <recursiveSubtypes>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.CholeskyDecomposition.Solver" elementName="Solver" formalDisplayName="Solver" modelMemberIdentifier="type:org.apache.commons.math3.linear.CholeskyDecomposition$Solver" modifiers="private,static," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.CholeskyDecomposition$Solver"/>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.EigenDecomposition.Solver" elementName="Solver" formalDisplayName="Solver" modelMemberIdentifier="type:org.apache.commons.math3.linear.EigenDecomposition$Solver" modifiers="private,static," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.EigenDecomposition$Solver"/>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.LUDecomposition.Solver" elementName="Solver" formalDisplayName="Solver" modelMemberIdentifier="type:org.apache.commons.math3.linear.LUDecomposition$Solver" modifiers="private,static," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.LUDecomposition$Solver"/>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.QRDecomposition.Solver" elementName="Solver" formalDisplayName="Solver" modelMemberIdentifier="type:org.apache.commons.math3.linear.QRDecomposition$Solver" modifiers="private,static," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.QRDecomposition$Solver"/>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.RRQRDecomposition.Solver" elementName="Solver" formalDisplayName="Solver" modelMemberIdentifier="type:org.apache.commons.math3.linear.RRQRDecomposition$Solver" modifiers="private,static," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.RRQRDecomposition$Solver"/>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.SingularValueDecomposition.Solver" elementName="Solver" formalDisplayName="Solver" modelMemberIdentifier="type:org.apache.commons.math3.linear.SingularValueDecomposition$Solver" modifiers="private,static," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.SingularValueDecomposition$Solver"/>
+        </recursiveSubtypes>
+        <nonRecursiveSupertypes/>
+        <recursiveSupertypes/>
+        <outwardDependencies/>
+    </type>
+    <icon data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAABf0lEQVR4nOVUXUsCQRT1t/ViKZT08WDqpqJBtGBagUSCFPRhkBTYB4jritsa2OJKUJIlBRqhUIYgREhEL0EP/YPb3IEdRF8me+zAYbnnnj17d3Z2TKYeNGofcLhVg5BbhwWhAMGZAq1R7/VyQ040aFhEvIR49I4Ra9SxP1Cof/IUdqO3oBw/gqa0GLFGHfu/Cn9tf4FnTIXtlQrkkk/Qi3bzk+o7kQr1oZ8rGNcwIl7A+lKZMrVXZ6HV8hvTkWuhEiTjD3zBix4d5ux5CLg0RgOlwgvT5h15SvRzBXttKjhH0uCyyGA3pygNaNkm07A/bZbIcpzwT+wmZpeV3DgsUbJg5ZnWRrDTkuafGNfMP5EDr00hD8iAMCqzYF1t0Rp1pG9chcwB585473zD1JAEAUGDjfBV366oXneoHiQ/Dfq4dwVC2q+TV81CePYcYqs3fRSdeTJtDtDHHdodLlizsOwrEupdLFJ9oFADeCYkNqsgOs7oB8XrUez+b2fF/8YPD2ecl9p99Q4AAAAASUVORK5CYII=" height="16" modelElementIdentifier="type:org.apache.commons.math3.linear.DecompositionSolver" width="22"/>
+    <icon data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAAA7klEQVR4nGNgoAL4DwQiVRYg6j81zIMbWr1vEthgEE01w5FdS1VX08Rg5GCAYYLBUbp9wn/WRs//elMT/oPYhFwLA3hd7bu4+H/8qpL/Wy7N/T/j2AQwGySGzWCDrgAUg2F8DEMLt/X+D1te8H/1+ZlIeAZYDCSHbjAugGEwc4PH/6a9Tf9b9rUg8P4WsBhIDmfYEQKyPWH/k1YBXbexDIpLwTRIDCRHtsEp61r/28+I/9+xs/F/x47G/51ADGLbT0/4D5Ij22AQcJ6T899rdur/6Xs7/jdtrQezQWIUGQoD+Ru74MkNxKaKoSMTAADT0xoKYwTuIgAAAABJRU5ErkJggg==" height="16" modelElementIdentifier="method:org.apache.commons.math3.linear.DecompositionSolver.getInverse(()Lorg/apache/commons/math3/linear/RealMatrix;)" width="22"/>
+    <icon data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAAA7klEQVR4nGNgoAL4DwQiVRYg6j81zIMbWr1vEthgEE01w5FdS1VX08Rg5GCAYYLBUbp9wn/WRs//elMT/oPYhFwLA3hd7bu4+H/8qpL/Wy7N/T/j2AQwGySGzWCDrgAUg2F8DEMLt/X+D1te8H/1+ZlIeAZYDCSHbjAugGEwc4PH/6a9Tf9b9rUg8P4WsBhIDmfYEQKyPWH/k1YBXbexDIpLwTRIDCRHtsEp61r/28+I/9+xs/F/x47G/51ADGLbT0/4D5Ij22AQcJ6T899rdur/6Xs7/jdtrQezQWIUGQoD+Ru74MkNxKaKoSMTAADT0xoKYwTuIgAAAABJRU5ErkJggg==" height="16" modelElementIdentifier="method:org.apache.commons.math3.linear.DecompositionSolver.isNonSingular(()Z)" width="22"/>
+    <icon data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAAA7klEQVR4nGNgoAL4DwQiVRYg6j81zIMbWr1vEthgEE01w5FdS1VX08Rg5GCAYYLBUbp9wn/WRs//elMT/oPYhFwLA3hd7bu4+H/8qpL/Wy7N/T/j2AQwGySGzWCDrgAUg2F8DEMLt/X+D1te8H/1+ZlIeAZYDCSHbjAugGEwc4PH/6a9Tf9b9rUg8P4WsBhIDmfYEQKyPWH/k1YBXbexDIpLwTRIDCRHtsEp61r/28+I/9+xs/F/x47G/51ADGLbT0/4D5Ij22AQcJ6T899rdur/6Xs7/jdtrQezQWIUGQoD+Ru74MkNxKaKoSMTAADT0xoKYwTuIgAAAABJRU5ErkJggg==" height="16" modelElementIdentifier="method:org.apache.commons.math3.linear.DecompositionSolver.solve((Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/RealVector;)" width="22"/>
+    <icon data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAAA7klEQVR4nGNgoAL4DwQiVRYg6j81zIMbWr1vEthgEE01w5FdS1VX08Rg5GCAYYLBUbp9wn/WRs//elMT/oPYhFwLA3hd7bu4+H/8qpL/Wy7N/T/j2AQwGySGzWCDrgAUg2F8DEMLt/X+D1te8H/1+ZlIeAZYDCSHbjAugGEwc4PH/6a9Tf9b9rUg8P4WsBhIDmfYEQKyPWH/k1YBXbexDIpLwTRIDCRHtsEp61r/28+I/9+xs/F/x47G/51ADGLbT0/4D5Ij22AQcJ6T899rdur/6Xs7/jdtrQezQWIUGQoD+Ru74MkNxKaKoSMTAADT0xoKYwTuIgAAAABJRU5ErkJggg==" height="16" modelElementIdentifier="method:org.apache.commons.math3.linear.DecompositionSolver.solve((Lorg/apache/commons/math3/linear/RealMatrix;)Lorg/apache/commons/math3/linear/RealMatrix;)" width="22"/>
+</AgileJWebModel>

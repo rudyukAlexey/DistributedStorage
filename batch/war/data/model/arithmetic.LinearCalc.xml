@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AgileJWebModel version="1.8.3.v20151019-2113">
+    <type deep="true" displayTextTemplate="arithmetic.LinearCalc" elementName="LinearCalc" fileNameKey="arithmetic.LinearCalc.xml" formalDisplayName="LinearCalc" isBinary="false" isClass="true" isDeprecated="false" isEnum="false" isInterface="false" isPrimitive="false" isTopLevel="true" javaProjectName="DistributedStorage" modelMemberIdentifier="type:arithmetic.LinearCalc" modifiers="public," packageName="arithmetic" qualifiedName="arithmetic.LinearCalc">
+        <filters>
+            <filter signature="all classes"/>
+            <filter signature="all types"/>
+            <filter signature="classes with a default constructor"/>
+            <filter signature="concrete classes"/>
+            <filter signature="inner types named {type-name}" switchValues="LinearCalc"/>
+            <filter signature="members of package {package-name}" switchValues="arithmetic"/>
+            <filter signature="non java star package types"/>
+            <filter signature="public types"/>
+            <filter signature="source code types"/>
+            <filter signature="top level source types"/>
+            <filter signature="top level types"/>
+            <filter signature="types named {type-name-pattern}" switchValues="LinearCalc"/>
+            <filter signature="types with static members"/>
+        </filters>
+        <outermostType>
+            <type deep="false" displayTextTemplate="arithmetic.LinearCalc" elementName="LinearCalc" formalDisplayName="LinearCalc" modelMemberIdentifier="type:arithmetic.LinearCalc" modifiers="public," packageName="arithmetic" qualifiedName="arithmetic.LinearCalc"/>
+        </outermostType>
+        <method deep="true" elementName="calcLinearSystem" isBinary="false" isDeprecated="false" modelMemberIdentifier="method:arithmetic.LinearCalc.calcLinearSystem((IIIIIIIIIIIIIIIIIIII)[I)" modifiers="public,static,">
+            <filters>
+                <filter signature="all methods"/>
+                <filter signature="all operations"/>
+                <filter signature="methods named {method-name-pattern}" switchValues="calcLinearSystem"/>
+                <filter signature="methods of {method-owner}" switchValues="LinearCalc"/>
+                <filter signature="public methods"/>
+                <filter signature="static methods"/>
+            </filters>
+            <declarer>
+                <type deep="false" displayTextTemplate="arithmetic.LinearCalc" elementName="LinearCalc" formalDisplayName="LinearCalc" modelMemberIdentifier="type:arithmetic.LinearCalc" modifiers="public," packageName="arithmetic" qualifiedName="arithmetic.LinearCalc"/>
+            </declarer>
+            <return>
+                <typeReference arrayDimensions="1" many="true">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </return>
+            <parameter name="x14">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="x13">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="x12">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="x11">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="x24">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="x23">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="x22">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="x21">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="x34">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="x33">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="x32">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="x31">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="x44">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="x43">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="x42">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="x41">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="d1">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="d2">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="d3">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="d4">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <calledMethods>
+                <method deep="false" elementName="toArray" modelMemberIdentifier="method:org.apache.commons.math3.linear.RealVector.toArray(()[D)" modifiers="public,">
+                    <return>
+                        <typeReference arrayDimensions="1" many="true">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="double" elementName="double" formalDisplayName="double" modelMemberIdentifier="type:double" modifiers="" packageName="" qualifiedName="double"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="double" elementName="double" formalDisplayName="double" modelMemberIdentifier="type:double" modifiers="" packageName="" qualifiedName="double"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="getSolver" modelMemberIdentifier="method:org.apache.commons.math3.linear.LUDecomposition.getSolver(()Lorg/apache/commons/math3/linear/DecompositionSolver;)" modifiers="public,">
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.DecompositionSolver" elementName="DecompositionSolver" formalDisplayName="DecompositionSolver" modelMemberIdentifier="type:org.apache.commons.math3.linear.DecompositionSolver" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.DecompositionSolver"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.DecompositionSolver" elementName="DecompositionSolver" formalDisplayName="DecompositionSolver" modelMemberIdentifier="type:org.apache.commons.math3.linear.DecompositionSolver" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.DecompositionSolver"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="solve" modelMemberIdentifier="method:org.apache.commons.math3.linear.DecompositionSolver.solve((Lorg/apache/commons/math3/linear/RealVector;)Lorg/apache/commons/math3/linear/RealVector;)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.SingularMatrixException" elementName="SingularMatrixException" formalDisplayName="SingularMatrixException" modelMemberIdentifier="type:org.apache.commons.math3.linear.SingularMatrixException" modifiers="public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.SingularMatrixException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.RealVector" elementName="RealVector" formalDisplayName="RealVector" modelMemberIdentifier="type:org.apache.commons.math3.linear.RealVector" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.RealVector"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.RealVector" elementName="RealVector" formalDisplayName="RealVector" modelMemberIdentifier="type:org.apache.commons.math3.linear.RealVector" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.RealVector"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                    <parameter name="arg0">
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.RealVector" elementName="RealVector" formalDisplayName="RealVector" modelMemberIdentifier="type:org.apache.commons.math3.linear.RealVector" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.RealVector"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.RealVector" elementName="RealVector" formalDisplayName="RealVector" modelMemberIdentifier="type:org.apache.commons.math3.linear.RealVector" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.RealVector"/>
+                            </containedType>
+                        </typeReference>
+                    </parameter>
+                </method>
+                <method deep="false" elementName="round" modelMemberIdentifier="method:java.lang.Math.round((D)J)" modifiers="public,static,">
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="long" elementName="long" formalDisplayName="long" modelMemberIdentifier="type:long" modifiers="" packageName="" qualifiedName="long"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="long" elementName="long" formalDisplayName="long" modelMemberIdentifier="type:long" modifiers="" packageName="" qualifiedName="long"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                    <parameter name="arg0">
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="double" elementName="double" formalDisplayName="double" modelMemberIdentifier="type:double" modifiers="" packageName="" qualifiedName="double"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="double" elementName="double" formalDisplayName="double" modelMemberIdentifier="type:double" modifiers="" packageName="" qualifiedName="double"/>
+                            </containedType>
+                        </typeReference>
+                    </parameter>
+                </method>
+            </calledMethods>
+        </method>
+        <nonRecursiveSubtypes/>
+        <recursiveSubtypes/>
+        <nonRecursiveSupertypes>
+            <type deep="false" displayTextTemplate="java.lang.Object" elementName="Object" formalDisplayName="Object" modelMemberIdentifier="type:java.lang.Object" modifiers="public," packageName="java.lang" qualifiedName="java.lang.Object"/>
+        </nonRecursiveSupertypes>
+        <recursiveSupertypes>
+            <type deep="false" displayTextTemplate="java.lang.Object" elementName="Object" formalDisplayName="Object" modelMemberIdentifier="type:java.lang.Object" modifiers="public," packageName="java.lang" qualifiedName="java.lang.Object"/>
+        </recursiveSupertypes>
+        <outwardDependencies>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.Array2DRowRealMatrix" elementName="Array2DRowRealMatrix" formalDisplayName="Array2DRowRealMatrix" modelMemberIdentifier="type:org.apache.commons.math3.linear.Array2DRowRealMatrix" modifiers="public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.Array2DRowRealMatrix"/>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.LUDecomposition" elementName="LUDecomposition" formalDisplayName="LUDecomposition" modelMemberIdentifier="type:org.apache.commons.math3.linear.LUDecomposition" modifiers="public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.LUDecomposition"/>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.DecompositionSolver" elementName="DecompositionSolver" formalDisplayName="DecompositionSolver" modelMemberIdentifier="type:org.apache.commons.math3.linear.DecompositionSolver" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.DecompositionSolver"/>
+            <type deep="false" displayTextTemplate="java.lang.Math" elementName="Math" formalDisplayName="Math" modelMemberIdentifier="type:java.lang.Math" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.Math"/>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.RealMatrix" elementName="RealMatrix" formalDisplayName="RealMatrix" modelMemberIdentifier="type:org.apache.commons.math3.linear.RealMatrix" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.RealMatrix"/>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.RealVector" elementName="RealVector" formalDisplayName="RealVector" modelMemberIdentifier="type:org.apache.commons.math3.linear.RealVector" modifiers="abstract,public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.RealVector"/>
+            <type deep="false" displayTextTemplate="org.apache.commons.math3.linear.ArrayRealVector" elementName="ArrayRealVector" formalDisplayName="ArrayRealVector" modelMemberIdentifier="type:org.apache.commons.math3.linear.ArrayRealVector" modifiers="public," packageName="org.apache.commons.math3.linear" qualifiedName="org.apache.commons.math3.linear.ArrayRealVector"/>
+        </outwardDependencies>
+    </type>
+    <icon data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAABx0lEQVR4nOWU3yuDYRTH98e49SNqJTUSr0zaWtpGtjaWMWRujNm0lzGyzI/CWDNLKLXwJhOmKNqFSC5GJhThhrlx+fU+z7IkF6+59K3Tec7znD6dc97nfUSibzq+O4fG346KcR3yB+SQjmppTPa/5woWuzFOYY0LbbCEOlNG4rzeSpDztKC5jjKwnB2rpyvYv9rD4fUB9YGjWTg4BzI6JL+DkzZJpV0hCyKX2/hJOxdb6F6z0soFj6Vm1gx9wIi5o5kUaDu2ibGIG9zZKo1vX27gCvfTvPqgRRiY8WihmNTCfzhPIVfPcej8DSlrXTTDGDRRq/bqQfIFgUl7OT0MPJFkxQfxKLLspci0lVAj6zy2HGKnFJJBGb+uEF5xgUvG3wAXBd+93KNwSAGJS04tGA1h5YSD2teKMo9aeMVkZpJBObQ+ExLvb8mPFdtH85IVI7vJLl7fE9Dw54pJHVqWWWHg2FOcXqWqKT1/M1hc8jP+qofEI9w7E1B7DTTvVz9LDzeKLBsDZkQFXaAJtnUn+sNu6kms4qHiPhlInmDoV3i2neHbrYNyxgAlDyOexGQ/LeinSJtV0yYUDalRPFxDfa3vj2/F/9YHYK+OD5EVjdEAAAAASUVORK5CYII=" height="16" modelElementIdentifier="type:arithmetic.LinearCalc" width="22"/>
+    <icon data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAAA60lEQVR4nGNgoBD8B4IPe47/P86kC8YgNghQai7YYJCBMABjU91gGKCKwTQLCmRAMChKt0/4z9ro+V9vasJ/EBufwUSHse/i4v/xq0r+b7k09/+MYxPAbJAYLoOf9S6ABwWIjdXgwm29/8OWF/xffX4mEp4BFgPJEQwbXIC5weN/096m/y37WhB4fwtYDCRHtsGyPWH/k1YBXbexDIpLwTRIDCRHtsEp61r/28+I/9+xs/F/x47G/51ADGLbT0/4D5Ij22AQcJ6T899rdur/6Xs7/jdtrQezQWIUGQoD+Ru74MkNxKaKoSMTAACsAQ7VtE42GgAAAABJRU5ErkJggg==" height="16" modelElementIdentifier="method:arithmetic.LinearCalc.calcLinearSystem((IIIIIIIIIIIIIIIIIIII)[I)" width="22"/>
+</AgileJWebModel>

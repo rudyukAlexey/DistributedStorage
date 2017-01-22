@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AgileJWebModel version="1.8.3.v20151019-2113">
+    <type deep="true" displayTextTemplate="dao.DaoUser" elementName="DaoUser" fileNameKey="dao.DaoUser.xml" formalDisplayName="DaoUser" isBinary="false" isClass="true" isDeprecated="false" isEnum="false" isInterface="false" isPrimitive="false" isTopLevel="true" javaProjectName="DistributedStorage" modelMemberIdentifier="type:dao.DaoUser" modifiers="public," packageName="dao" qualifiedName="dao.DaoUser">
+        <filters>
+            <filter signature="all classes"/>
+            <filter signature="all types"/>
+            <filter signature="classes with a default constructor"/>
+            <filter signature="concrete classes"/>
+            <filter signature="inner types named {type-name}" switchValues="DaoUser"/>
+            <filter signature="members of package {package-name}" switchValues="dao"/>
+            <filter signature="non java star package types"/>
+            <filter signature="public types"/>
+            <filter signature="source code types"/>
+            <filter signature="top level source types"/>
+            <filter signature="top level types"/>
+            <filter signature="types named {type-name-pattern}" switchValues="DaoUser"/>
+        </filters>
+        <outermostType>
+            <type deep="false" displayTextTemplate="dao.DaoUser" elementName="DaoUser" formalDisplayName="DaoUser" modelMemberIdentifier="type:dao.DaoUser" modifiers="public," packageName="dao" qualifiedName="dao.DaoUser"/>
+        </outermostType>
+        <method deep="true" elementName="addUser" isBinary="false" isDeprecated="false" modelMemberIdentifier="method:dao.DaoUser.addUser((QString;QString;QString;QString;QString;QString;QString;)V)" modifiers="public,">
+            <filters>
+                <filter signature="all methods"/>
+                <filter signature="all operations"/>
+                <filter signature="methods named {method-name-pattern}" switchValues="addUser"/>
+                <filter signature="methods of {method-owner}" switchValues="DaoUser"/>
+                <filter signature="public methods"/>
+            </filters>
+            <declarer>
+                <type deep="false" displayTextTemplate="dao.DaoUser" elementName="DaoUser" formalDisplayName="DaoUser" modelMemberIdentifier="type:dao.DaoUser" modifiers="public," packageName="dao" qualifiedName="dao.DaoUser"/>
+            </declarer>
+            <exceptions>
+                <type deep="false" displayTextTemplate="javax.naming.NamingException" elementName="NamingException" formalDisplayName="NamingException" modelMemberIdentifier="type:javax.naming.NamingException" modifiers="public," packageName="javax.naming" qualifiedName="javax.naming.NamingException"/>
+                <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+            </exceptions>
+            <return>
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                    </containedType>
+                </typeReference>
+            </return>
+            <parameter name="login">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="checksum">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="p2">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="p3">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="p4">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="p5">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="p6">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <calledMethods>
+                <method deep="false" elementName="CreateConnection" modelMemberIdentifier="method:manager.Connector6.CreateConnection(()QConnection;)" modifiers="public,static,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="javax.naming.NamingException" elementName="NamingException" formalDisplayName="NamingException" modelMemberIdentifier="type:javax.naming.NamingException" modifiers="public," packageName="javax.naming" qualifiedName="javax.naming.NamingException"/>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                        <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="CreateConnection" modelMemberIdentifier="method:manager.Connector5.CreateConnection(()QConnection;)" modifiers="public,static,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="javax.naming.NamingException" elementName="NamingException" formalDisplayName="NamingException" modelMemberIdentifier="type:javax.naming.NamingException" modifiers="public," packageName="javax.naming" qualifiedName="javax.naming.NamingException"/>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                        <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="CreateConnection" modelMemberIdentifier="method:manager.Connector.CreateConnection(()QConnection;)" modifiers="public,static,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="javax.naming.NamingException" elementName="NamingException" formalDisplayName="NamingException" modelMemberIdentifier="type:javax.naming.NamingException" modifiers="public," packageName="javax.naming" qualifiedName="javax.naming.NamingException"/>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                        <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="CreateConnection" modelMemberIdentifier="method:manager.Connector2.CreateConnection(()QConnection;)" modifiers="public,static,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="javax.naming.NamingException" elementName="NamingException" formalDisplayName="NamingException" modelMemberIdentifier="type:javax.naming.NamingException" modifiers="public," packageName="javax.naming" qualifiedName="javax.naming.NamingException"/>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                        <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="close" modelMemberIdentifier="method:java.sql.Statement.close(()V)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="prepareStatement" modelMemberIdentifier="method:java.sql.Connection.prepareStatement((Ljava/lang/String;)Ljava/sql/PreparedStatement;)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.PreparedStatement" elementName="PreparedStatement" formalDisplayName="PreparedStatement" modelMemberIdentifier="type:java.sql.PreparedStatement" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.PreparedStatement"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.PreparedStatement" elementName="PreparedStatement" formalDisplayName="PreparedStatement" modelMemberIdentifier="type:java.sql.PreparedStatement" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.PreparedStatement"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                    <parameter name="arg0">
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </containedType>
+                        </typeReference>
+                    </parameter>
+                </method>
+                <method deep="false" elementName="close" modelMemberIdentifier="method:java.sql.Connection.close(()V)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="CreateConnection" modelMemberIdentifier="method:manager.Connector3.CreateConnection(()QConnection;)" modifiers="public,static,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="javax.naming.NamingException" elementName="NamingException" formalDisplayName="NamingException" modelMemberIdentifier="type:javax.naming.NamingException" modifiers="public," packageName="javax.naming" qualifiedName="javax.naming.NamingException"/>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                        <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="CreateConnection" modelMemberIdentifier="method:manager.Connector4.CreateConnection(()QConnection;)" modifiers="public,static,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="javax.naming.NamingException" elementName="NamingException" formalDisplayName="NamingException" modelMemberIdentifier="type:javax.naming.NamingException" modifiers="public," packageName="javax.naming" qualifiedName="javax.naming.NamingException"/>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                        <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="executeUpdate" modelMemberIdentifier="method:java.sql.PreparedStatement.executeUpdate(()I)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="printStackTrace" modelMemberIdentifier="method:java.lang.Throwable.printStackTrace(()V)" modifiers="public,">
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="setString" modelMemberIdentifier="method:java.sql.PreparedStatement.setString((ILjava/lang/String;)V)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                    <parameter name="arg0">
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                            </containedType>
+                        </typeReference>
+                    </parameter>
+                    <parameter name="arg1">
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </containedType>
+                        </typeReference>
+                    </parameter>
+                </method>
+            </calledMethods>
+        </method>
+        <method deep="true" elementName="find" isBinary="false" isDeprecated="false" modelMemberIdentifier="method:dao.DaoUser.find((QString;)Z)" modifiers="public,">
+            <filters>
+                <filter signature="all methods"/>
+                <filter signature="all operations"/>
+                <filter signature="methods named {method-name-pattern}" switchValues="find"/>
+                <filter signature="methods of {method-owner}" switchValues="DaoUser"/>
+                <filter signature="public methods"/>
+            </filters>
+            <declarer>
+                <type deep="false" displayTextTemplate="dao.DaoUser" elementName="DaoUser" formalDisplayName="DaoUser" modelMemberIdentifier="type:dao.DaoUser" modifiers="public," packageName="dao" qualifiedName="dao.DaoUser"/>
+            </declarer>
+            <exceptions>
+                <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+                <type deep="false" displayTextTemplate="javax.naming.NamingException" elementName="NamingException" formalDisplayName="NamingException" modelMemberIdentifier="type:javax.naming.NamingException" modifiers="public," packageName="javax.naming" qualifiedName="javax.naming.NamingException"/>
+            </exceptions>
+            <return>
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="boolean" elementName="boolean" formalDisplayName="boolean" modelMemberIdentifier="type:boolean" modifiers="" packageName="" qualifiedName="boolean"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="boolean" elementName="boolean" formalDisplayName="boolean" modelMemberIdentifier="type:boolean" modifiers="" packageName="" qualifiedName="boolean"/>
+                    </containedType>
+                </typeReference>
+            </return>
+            <parameter name="login">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <calledMethods>
+                <method deep="false" elementName="close" modelMemberIdentifier="method:java.sql.ResultSet.close(()V)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="CreateConnection" modelMemberIdentifier="method:manager.Connector.CreateConnection(()QConnection;)" modifiers="public,static,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="javax.naming.NamingException" elementName="NamingException" formalDisplayName="NamingException" modelMemberIdentifier="type:javax.naming.NamingException" modifiers="public," packageName="javax.naming" qualifiedName="javax.naming.NamingException"/>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                        <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="close" modelMemberIdentifier="method:java.sql.Statement.close(()V)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="prepareStatement" modelMemberIdentifier="method:java.sql.Connection.prepareStatement((Ljava/lang/String;)Ljava/sql/PreparedStatement;)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.PreparedStatement" elementName="PreparedStatement" formalDisplayName="PreparedStatement" modelMemberIdentifier="type:java.sql.PreparedStatement" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.PreparedStatement"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.PreparedStatement" elementName="PreparedStatement" formalDisplayName="PreparedStatement" modelMemberIdentifier="type:java.sql.PreparedStatement" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.PreparedStatement"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                    <parameter name="arg0">
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </containedType>
+                        </typeReference>
+                    </parameter>
+                </method>
+                <method deep="false" elementName="close" modelMemberIdentifier="method:java.sql.Connection.close(()V)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="executeQuery" modelMemberIdentifier="method:java.sql.PreparedStatement.executeQuery(()Ljava/sql/ResultSet;)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.ResultSet" elementName="ResultSet" formalDisplayName="ResultSet" modelMemberIdentifier="type:java.sql.ResultSet" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.ResultSet"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.ResultSet" elementName="ResultSet" formalDisplayName="ResultSet" modelMemberIdentifier="type:java.sql.ResultSet" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.ResultSet"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="next" modelMemberIdentifier="method:java.sql.ResultSet.next(()Z)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="boolean" elementName="boolean" formalDisplayName="boolean" modelMemberIdentifier="type:boolean" modifiers="" packageName="" qualifiedName="boolean"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="boolean" elementName="boolean" formalDisplayName="boolean" modelMemberIdentifier="type:boolean" modifiers="" packageName="" qualifiedName="boolean"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="printStackTrace" modelMemberIdentifier="method:java.lang.Throwable.printStackTrace(()V)" modifiers="public,">
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="setString" modelMemberIdentifier="method:java.sql.PreparedStatement.setString((ILjava/lang/String;)V)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                    <parameter name="arg0">
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                            </containedType>
+                        </typeReference>
+                    </parameter>
+                    <parameter name="arg1">
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </containedType>
+                        </typeReference>
+                    </parameter>
+                </method>
+            </calledMethods>
+        </method>
+        <method deep="true" elementName="getPart" isBinary="false" isDeprecated="false" modelMemberIdentifier="method:dao.DaoUser.getPart((QString;)[QString;)" modifiers="public,">
+            <filters>
+                <filter signature="all methods"/>
+                <filter signature="all operations"/>
+                <filter signature="getter methods"/>
+                <filter signature="methods named {method-name-pattern}" switchValues="getPart"/>
+                <filter signature="methods of {method-owner}" switchValues="DaoUser"/>
+                <filter signature="public methods"/>
+            </filters>
+            <declarer>
+                <type deep="false" displayTextTemplate="dao.DaoUser" elementName="DaoUser" formalDisplayName="DaoUser" modelMemberIdentifier="type:dao.DaoUser" modifiers="public," packageName="dao" qualifiedName="dao.DaoUser"/>
+            </declarer>
+            <exceptions>
+                <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+                <type deep="false" displayTextTemplate="javax.naming.NamingException" elementName="NamingException" formalDisplayName="NamingException" modelMemberIdentifier="type:javax.naming.NamingException" modifiers="public," packageName="javax.naming" qualifiedName="javax.naming.NamingException"/>
+            </exceptions>
+            <return>
+                <typeReference arrayDimensions="1" many="true">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </containedType>
+                </typeReference>
+            </return>
+            <parameter name="login">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <calledMethods>
+                <method deep="false" elementName="close" modelMemberIdentifier="method:java.sql.ResultSet.close(()V)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="CreateConnection" modelMemberIdentifier="method:manager.Connector6.CreateConnection(()QConnection;)" modifiers="public,static,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="javax.naming.NamingException" elementName="NamingException" formalDisplayName="NamingException" modelMemberIdentifier="type:javax.naming.NamingException" modifiers="public," packageName="javax.naming" qualifiedName="javax.naming.NamingException"/>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                        <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="close" modelMemberIdentifier="method:java.sql.Statement.close(()V)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="close" modelMemberIdentifier="method:java.sql.Connection.close(()V)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="CreateConnection" modelMemberIdentifier="method:manager.Connector3.CreateConnection(()QConnection;)" modifiers="public,static,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="javax.naming.NamingException" elementName="NamingException" formalDisplayName="NamingException" modelMemberIdentifier="type:javax.naming.NamingException" modifiers="public," packageName="javax.naming" qualifiedName="javax.naming.NamingException"/>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                        <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="CreateConnection" modelMemberIdentifier="method:manager.Connector5.CreateConnection(()QConnection;)" modifiers="public,static,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="javax.naming.NamingException" elementName="NamingException" formalDisplayName="NamingException" modelMemberIdentifier="type:javax.naming.NamingException" modifiers="public," packageName="javax.naming" qualifiedName="javax.naming.NamingException"/>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                        <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="CreateConnection" modelMemberIdentifier="method:manager.Connector2.CreateConnection(()QConnection;)" modifiers="public,static,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="javax.naming.NamingException" elementName="NamingException" formalDisplayName="NamingException" modelMemberIdentifier="type:javax.naming.NamingException" modifiers="public," packageName="javax.naming" qualifiedName="javax.naming.NamingException"/>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                        <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="prepareStatement" modelMemberIdentifier="method:java.sql.Connection.prepareStatement((Ljava/lang/String;)Ljava/sql/PreparedStatement;)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.PreparedStatement" elementName="PreparedStatement" formalDisplayName="PreparedStatement" modelMemberIdentifier="type:java.sql.PreparedStatement" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.PreparedStatement"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.PreparedStatement" elementName="PreparedStatement" formalDisplayName="PreparedStatement" modelMemberIdentifier="type:java.sql.PreparedStatement" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.PreparedStatement"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                    <parameter name="sql">
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </containedType>
+                        </typeReference>
+                    </parameter>
+                </method>
+                <method deep="false" elementName="executeQuery" modelMemberIdentifier="method:java.sql.PreparedStatement.executeQuery(()Ljava/sql/ResultSet;)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.ResultSet" elementName="ResultSet" formalDisplayName="ResultSet" modelMemberIdentifier="type:java.sql.ResultSet" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.ResultSet"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.ResultSet" elementName="ResultSet" formalDisplayName="ResultSet" modelMemberIdentifier="type:java.sql.ResultSet" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.ResultSet"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="next" modelMemberIdentifier="method:java.sql.ResultSet.next(()Z)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="boolean" elementName="boolean" formalDisplayName="boolean" modelMemberIdentifier="type:boolean" modifiers="" packageName="" qualifiedName="boolean"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="boolean" elementName="boolean" formalDisplayName="boolean" modelMemberIdentifier="type:boolean" modifiers="" packageName="" qualifiedName="boolean"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="CreateConnection" modelMemberIdentifier="method:manager.Connector4.CreateConnection(()QConnection;)" modifiers="public,static,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="javax.naming.NamingException" elementName="NamingException" formalDisplayName="NamingException" modelMemberIdentifier="type:javax.naming.NamingException" modifiers="public," packageName="javax.naming" qualifiedName="javax.naming.NamingException"/>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                        <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="getString" modelMemberIdentifier="method:java.sql.ResultSet.getString((Ljava/lang/String;)Ljava/lang/String;)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                    <parameter name="arg0">
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </containedType>
+                        </typeReference>
+                    </parameter>
+                </method>
+                <method deep="false" elementName="printStackTrace" modelMemberIdentifier="method:java.lang.Throwable.printStackTrace(()V)" modifiers="public,">
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+                <method deep="false" elementName="setString" modelMemberIdentifier="method:java.sql.PreparedStatement.setString((ILjava/lang/String;)V)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="void" elementName="void" formalDisplayName="void" modelMemberIdentifier="type:void" modifiers="" packageName="" qualifiedName="void"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                    <parameter name="parameterIndex">
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="int" elementName="int" formalDisplayName="int" modelMemberIdentifier="type:int" modifiers="" packageName="" qualifiedName="int"/>
+                            </containedType>
+                        </typeReference>
+                    </parameter>
+                    <parameter name="x">
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </containedType>
+                        </typeReference>
+                    </parameter>
+                </method>
+            </calledMethods>
+        </method>
+        <nonRecursiveSubtypes/>
+        <recursiveSubtypes/>
+        <nonRecursiveSupertypes>
+            <type deep="false" displayTextTemplate="java.lang.Object" elementName="Object" formalDisplayName="Object" modelMemberIdentifier="type:java.lang.Object" modifiers="public," packageName="java.lang" qualifiedName="java.lang.Object"/>
+        </nonRecursiveSupertypes>
+        <recursiveSupertypes>
+            <type deep="false" displayTextTemplate="java.lang.Object" elementName="Object" formalDisplayName="Object" modelMemberIdentifier="type:java.lang.Object" modifiers="public," packageName="java.lang" qualifiedName="java.lang.Object"/>
+        </recursiveSupertypes>
+        <outwardDependencies>
+            <type deep="false" displayTextTemplate="manager.Connector" elementName="Connector" formalDisplayName="Connector" modelMemberIdentifier="type:manager.Connector" modifiers="public," packageName="manager" qualifiedName="manager.Connector"/>
+            <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+            <type deep="false" displayTextTemplate="manager.Connector2" elementName="Connector2" formalDisplayName="Connector2" modelMemberIdentifier="type:manager.Connector2" modifiers="public," packageName="manager" qualifiedName="manager.Connector2"/>
+            <type deep="false" displayTextTemplate="manager.Connector3" elementName="Connector3" formalDisplayName="Connector3" modelMemberIdentifier="type:manager.Connector3" modifiers="public," packageName="manager" qualifiedName="manager.Connector3"/>
+            <type deep="false" displayTextTemplate="manager.Connector6" elementName="Connector6" formalDisplayName="Connector6" modelMemberIdentifier="type:manager.Connector6" modifiers="public," packageName="manager" qualifiedName="manager.Connector6"/>
+            <type deep="false" displayTextTemplate="manager.Connector4" elementName="Connector4" formalDisplayName="Connector4" modelMemberIdentifier="type:manager.Connector4" modifiers="public," packageName="manager" qualifiedName="manager.Connector4"/>
+            <type deep="false" displayTextTemplate="manager.Connector5" elementName="Connector5" formalDisplayName="Connector5" modelMemberIdentifier="type:manager.Connector5" modifiers="public," packageName="manager" qualifiedName="manager.Connector5"/>
+            <type deep="false" displayTextTemplate="javax.naming.NamingException" elementName="NamingException" formalDisplayName="NamingException" modelMemberIdentifier="type:javax.naming.NamingException" modifiers="public," packageName="javax.naming" qualifiedName="javax.naming.NamingException"/>
+            <type deep="false" displayTextTemplate="java.sql.PreparedStatement" elementName="PreparedStatement" formalDisplayName="PreparedStatement" modelMemberIdentifier="type:java.sql.PreparedStatement" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.PreparedStatement"/>
+            <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+            <type deep="false" displayTextTemplate="java.sql.ResultSet" elementName="ResultSet" formalDisplayName="ResultSet" modelMemberIdentifier="type:java.sql.ResultSet" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.ResultSet"/>
+            <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+            <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+        </outwardDependencies>
+    </type>
+    <icon data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAABx0lEQVR4nOWU3yuDYRTH98e49SNqJTUSr0zaWtpGtjaWMWRujNm0lzGyzI/CWDNLKLXwJhOmKNqFSC5GJhThhrlx+fU+z7IkF6+59K3Tec7znD6dc97nfUSibzq+O4fG346KcR3yB+SQjmppTPa/5woWuzFOYY0LbbCEOlNG4rzeSpDztKC5jjKwnB2rpyvYv9rD4fUB9YGjWTg4BzI6JL+DkzZJpV0hCyKX2/hJOxdb6F6z0soFj6Vm1gx9wIi5o5kUaDu2ibGIG9zZKo1vX27gCvfTvPqgRRiY8WihmNTCfzhPIVfPcej8DSlrXTTDGDRRq/bqQfIFgUl7OT0MPJFkxQfxKLLspci0lVAj6zy2HGKnFJJBGb+uEF5xgUvG3wAXBd+93KNwSAGJS04tGA1h5YSD2teKMo9aeMVkZpJBObQ+ExLvb8mPFdtH85IVI7vJLl7fE9Dw54pJHVqWWWHg2FOcXqWqKT1/M1hc8jP+qofEI9w7E1B7DTTvVz9LDzeKLBsDZkQFXaAJtnUn+sNu6kms4qHiPhlInmDoV3i2neHbrYNyxgAlDyOexGQ/LeinSJtV0yYUDalRPFxDfa3vj2/F/9YHYK+OD5EVjdEAAAAASUVORK5CYII=" height="16" modelElementIdentifier="type:dao.DaoUser" width="22"/>
+    <icon data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAAAuElEQVR4nGNgGAXDD5Run/CftdHzv97UhP8gNlUM9V1c/D9+Vcn/LZfm/p9xbAKYDRKjyNDCbb3/w5YX/F99fiYSngEWA8mRbTBzg8f/pr1N/1v2tSDw/hawGEiObINle8L+J60Cum5jGRSXgmmQGEiObINT1rX+t58R/79jZ+P/jh2N/zuBGMS2n57wHyRHtsEg4Dwn57/X7NT/0/d2/G/aWg9mg8QoMhQG8jd2wZMbiE0VQ0cmAAD3yYO+kqE/HwAAAABJRU5ErkJggg==" height="16" modelElementIdentifier="method:dao.DaoUser.addUser((QString;QString;QString;QString;QString;QString;QString;)V)" width="22"/>
+    <icon data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAAAuElEQVR4nGNgGAXDD5Run/CftdHzv97UhP8gNlUM9V1c/D9+Vcn/LZfm/p9xbAKYDRKjyNDCbb3/w5YX/F99fiYSngEWA8mRbTBzg8f/pr1N/1v2tSDw/hawGEiObINle8L+J60Cum5jGRSXgmmQGEiObINT1rX+t58R/79jZ+P/jh2N/zuBGMS2n57wHyRHtsEg4Dwn57/X7NT/0/d2/G/aWg9mg8QoMhQG8jd2wZMbiE0VQ0cmAAD3yYO+kqE/HwAAAABJRU5ErkJggg==" height="16" modelElementIdentifier="method:dao.DaoUser.find((QString;)Z)" width="22"/>
+    <icon data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAAAuElEQVR4nGNgGAXDD5Run/CftdHzv97UhP8gNlUM9V1c/D9+Vcn/LZfm/p9xbAKYDRKjyNDCbb3/w5YX/F99fiYSngEWA8mRbTBzg8f/pr1N/1v2tSDw/hawGEiObINle8L+J60Cum5jGRSXgmmQGEiObINT1rX+t58R/79jZ+P/jh2N/zuBGMS2n57wHyRHtsEg4Dwn57/X7NT/0/d2/G/aWg9mg8QoMhQG8jd2wZMbiE0VQ0cmAAD3yYO+kqE/HwAAAABJRU5ErkJggg==" height="16" modelElementIdentifier="method:dao.DaoUser.getPart((QString;)[QString;)" width="22"/>
+</AgileJWebModel>

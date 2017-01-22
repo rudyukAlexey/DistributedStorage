@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AgileJWebModel version="1.8.3.v20151019-2113">
+    <type deep="true" displayTextTemplate="manager.Connector2" elementName="Connector2" fileNameKey="manager.Connector2.xml" formalDisplayName="Connector2" isBinary="false" isClass="true" isDeprecated="false" isEnum="false" isInterface="false" isPrimitive="false" isTopLevel="true" javaProjectName="DistributedStorage" modelMemberIdentifier="type:manager.Connector2" modifiers="public," packageName="manager" qualifiedName="manager.Connector2">
+        <filters>
+            <filter signature="all classes"/>
+            <filter signature="all types"/>
+            <filter signature="classes with a default constructor"/>
+            <filter signature="concrete classes"/>
+            <filter signature="inner types named {type-name}" switchValues="Connector2"/>
+            <filter signature="members of package {package-name}" switchValues="manager"/>
+            <filter signature="non java star package types"/>
+            <filter signature="public types"/>
+            <filter signature="source code types"/>
+            <filter signature="top level source types"/>
+            <filter signature="top level types"/>
+            <filter signature="types named {type-name-pattern}" switchValues="Connector2"/>
+            <filter signature="types with static members"/>
+        </filters>
+        <outermostType>
+            <type deep="false" displayTextTemplate="manager.Connector2" elementName="Connector2" formalDisplayName="Connector2" modelMemberIdentifier="type:manager.Connector2" modifiers="public," packageName="manager" qualifiedName="manager.Connector2"/>
+        </outermostType>
+        <method deep="true" elementName="CreateConnection" isBinary="false" isDeprecated="false" modelMemberIdentifier="method:manager.Connector2.CreateConnection(()QConnection;)" modifiers="public,static,">
+            <filters>
+                <filter signature="all methods"/>
+                <filter signature="all operations"/>
+                <filter signature="methods named {method-name-pattern}" switchValues="CreateConnection"/>
+                <filter signature="methods of {method-owner}" switchValues="Connector2"/>
+                <filter signature="public methods"/>
+                <filter signature="static methods"/>
+            </filters>
+            <declarer>
+                <type deep="false" displayTextTemplate="manager.Connector2" elementName="Connector2" formalDisplayName="Connector2" modelMemberIdentifier="type:manager.Connector2" modifiers="public," packageName="manager" qualifiedName="manager.Connector2"/>
+            </declarer>
+            <exceptions>
+                <type deep="false" displayTextTemplate="javax.naming.NamingException" elementName="NamingException" formalDisplayName="NamingException" modelMemberIdentifier="type:javax.naming.NamingException" modifiers="public," packageName="javax.naming" qualifiedName="javax.naming.NamingException"/>
+                <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+            </exceptions>
+            <return>
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                    </containedType>
+                </typeReference>
+            </return>
+            <calledMethods>
+                <method deep="false" elementName="getConnection" modelMemberIdentifier="method:java.sql.DriverManager.getConnection((Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;)" modifiers="public,static,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                    <parameter name="arg0">
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </containedType>
+                        </typeReference>
+                    </parameter>
+                    <parameter name="arg1">
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </containedType>
+                        </typeReference>
+                    </parameter>
+                    <parameter name="arg2">
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </containedType>
+                        </typeReference>
+                    </parameter>
+                </method>
+                <method deep="false" elementName="forName" modelMemberIdentifier="method:java.lang.Class.forName((Ljava/lang/String;)Ljava/lang/Class;)" modifiers="public,static,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.lang.Class&lt;&amp;&gt;" elementName="Class" formalDisplayName="Class&lt;T extends Object&gt;" modelMemberIdentifier="type:java.lang.Class" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.Class"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="?" elementName="" formalDisplayName="?" modelMemberIdentifier="type:?" modifiers="" packageName="" qualifiedName="?"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                    <parameter name="arg0">
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                            </containedType>
+                        </typeReference>
+                    </parameter>
+                </method>
+                <method deep="false" elementName="createStatement" modelMemberIdentifier="method:java.sql.Connection.createStatement(()Ljava/sql/Statement;)" modifiers="abstract,public,">
+                    <exceptions>
+                        <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+                    </exceptions>
+                    <return>
+                        <typeReference arrayDimensions="0" many="false">
+                            <rawType>
+                                <type deep="false" displayTextTemplate="java.sql.Statement" elementName="Statement" formalDisplayName="Statement" modelMemberIdentifier="type:java.sql.Statement" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Statement"/>
+                            </rawType>
+                            <containedType>
+                                <type deep="false" displayTextTemplate="java.sql.Statement" elementName="Statement" formalDisplayName="Statement" modelMemberIdentifier="type:java.sql.Statement" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Statement"/>
+                            </containedType>
+                        </typeReference>
+                    </return>
+                </method>
+            </calledMethods>
+        </method>
+        <nonRecursiveSubtypes/>
+        <recursiveSubtypes/>
+        <nonRecursiveSupertypes>
+            <type deep="false" displayTextTemplate="java.lang.Object" elementName="Object" formalDisplayName="Object" modelMemberIdentifier="type:java.lang.Object" modifiers="public," packageName="java.lang" qualifiedName="java.lang.Object"/>
+        </nonRecursiveSupertypes>
+        <recursiveSupertypes>
+            <type deep="false" displayTextTemplate="java.lang.Object" elementName="Object" formalDisplayName="Object" modelMemberIdentifier="type:java.lang.Object" modifiers="public," packageName="java.lang" qualifiedName="java.lang.Object"/>
+        </recursiveSupertypes>
+        <outwardDependencies>
+            <type deep="false" displayTextTemplate="java.sql.SQLException" elementName="SQLException" formalDisplayName="SQLException" modelMemberIdentifier="type:java.sql.SQLException" modifiers="public," packageName="java.sql" qualifiedName="java.sql.SQLException"/>
+            <type deep="false" displayTextTemplate="java.sql.Connection" elementName="Connection" formalDisplayName="Connection" modelMemberIdentifier="type:java.sql.Connection" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Connection"/>
+            <type deep="false" displayTextTemplate="java.sql.Statement" elementName="Statement" formalDisplayName="Statement" modelMemberIdentifier="type:java.sql.Statement" modifiers="abstract,public," packageName="java.sql" qualifiedName="java.sql.Statement"/>
+            <type deep="false" displayTextTemplate="java.lang.ClassNotFoundException" elementName="ClassNotFoundException" formalDisplayName="ClassNotFoundException" modelMemberIdentifier="type:java.lang.ClassNotFoundException" modifiers="public," packageName="java.lang" qualifiedName="java.lang.ClassNotFoundException"/>
+            <type deep="false" displayTextTemplate="java.lang.Class&lt;&amp;&gt;" elementName="Class" formalDisplayName="Class&lt;T extends Object&gt;" modelMemberIdentifier="type:java.lang.Class" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.Class"/>
+            <type deep="false" displayTextTemplate="javax.naming.NamingException" elementName="NamingException" formalDisplayName="NamingException" modelMemberIdentifier="type:javax.naming.NamingException" modifiers="public," packageName="javax.naming" qualifiedName="javax.naming.NamingException"/>
+            <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+            <type deep="false" displayTextTemplate="java.sql.DriverManager" elementName="DriverManager" formalDisplayName="DriverManager" modelMemberIdentifier="type:java.sql.DriverManager" modifiers="public," packageName="java.sql" qualifiedName="java.sql.DriverManager"/>
+        </outwardDependencies>
+    </type>
+    <icon data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAABx0lEQVR4nOWU3yuDYRTH98e49SNqJTUSr0zaWtpGtjaWMWRujNm0lzGyzI/CWDNLKLXwJhOmKNqFSC5GJhThhrlx+fU+z7IkF6+59K3Tec7znD6dc97nfUSibzq+O4fG346KcR3yB+SQjmppTPa/5woWuzFOYY0LbbCEOlNG4rzeSpDztKC5jjKwnB2rpyvYv9rD4fUB9YGjWTg4BzI6JL+DkzZJpV0hCyKX2/hJOxdb6F6z0soFj6Vm1gx9wIi5o5kUaDu2ibGIG9zZKo1vX27gCvfTvPqgRRiY8WihmNTCfzhPIVfPcej8DSlrXTTDGDRRq/bqQfIFgUl7OT0MPJFkxQfxKLLspci0lVAj6zy2HGKnFJJBGb+uEF5xgUvG3wAXBd+93KNwSAGJS04tGA1h5YSD2teKMo9aeMVkZpJBObQ+ExLvb8mPFdtH85IVI7vJLl7fE9Dw54pJHVqWWWHg2FOcXqWqKT1/M1hc8jP+qofEI9w7E1B7DTTvVz9LDzeKLBsDZkQFXaAJtnUn+sNu6kms4qHiPhlInmDoV3i2neHbrYNyxgAlDyOexGQ/LeinSJtV0yYUDalRPFxDfa3vj2/F/9YHYK+OD5EVjdEAAAAASUVORK5CYII=" height="16" modelElementIdentifier="type:manager.Connector2" width="22"/>
+    <icon data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAAA60lEQVR4nGNgoBD8B4IPe47/P86kC8YgNghQai7YYJCBMABjU91gGKCKwTQLCmRAMChKt0/4z9ro+V9vasJ/EBufwUSHse/i4v/xq0r+b7k09/+MYxPAbJAYLoOf9S6ABwWIjdXgwm29/8OWF/xffX4mEp4BFgPJEQwbXIC5weN/096m/y37WhB4fwtYDCRHtsGyPWH/k1YBXbexDIpLwTRIDCRHtsEp61r/28+I/9+xs/F/x47G/51ADGLbT0/4D5Ij22AQcJ6T899rdur/6Xs7/jdtrQezQWIUGQoD+Ru74MkNxKaKoSMTAACsAQ7VtE42GgAAAABJRU5ErkJggg==" height="16" modelElementIdentifier="method:manager.Connector2.CreateConnection(()QConnection;)" width="22"/>
+</AgileJWebModel>

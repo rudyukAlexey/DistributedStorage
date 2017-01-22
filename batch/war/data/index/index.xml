@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index version="1.8.3.v20151019-2113">
+    <entry isSeed="false" populationMethod="inheritance" qualifiedName="commands.AddUser" stemName="in_servlet.Dispatcher" text="AddUser"/>
+    <entry isSeed="false" populationMethod="method call" qualifiedName="commands.AddUser" stemName="me_commands.AddUser" text="AddUser"/>
+    <entry isSeed="false" populationMethod="method call" qualifiedName="commands.AddUser" stemName="me_dao.DaoUser" text="AddUser"/>
+    <entry isSeed="false" populationMethod="package" qualifiedName="commands.AddUser" stemName="pa_commands" text="AddUser"/>
+    <entry isSeed="false" populationMethod="dependency" qualifiedName="org.apache.commons.math3.linear.Array2DRowRealMatrix" stemName="de_arithmetic.LinearCalc" text="Array2DRowRealMatrix"/>
+    <entry isSeed="false" populationMethod="dependency" qualifiedName="org.apache.commons.math3.linear.ArrayRealVector" stemName="de_arithmetic.LinearCalc" text="ArrayRealVector"/>
+    <entry isSeed="false" populationMethod="dependency" qualifiedName="commands.CheckUser" stemName="de_arithmetic.LinearCalc" text="CheckUser"/>
+    <entry isSeed="false" populationMethod="inheritance" qualifiedName="commands.CheckUser" stemName="in_servlet.Dispatcher" text="CheckUser"/>
+    <entry isSeed="false" populationMethod="method call" qualifiedName="commands.CheckUser" stemName="me_commands.CheckUser" text="CheckUser"/>
+    <entry isSeed="false" populationMethod="method call" qualifiedName="commands.CheckUser" stemName="me_dao.DaoUser" text="CheckUser"/>
+    <entry isSeed="false" populationMethod="package" qualifiedName="commands.CheckUser" stemName="pa_commands" text="CheckUser"/>
+    <entry isSeed="false" populationMethod="dependency" qualifiedName="manager.Connector" stemName="de_dao.DaoUser" text="Connector"/>
+    <entry isSeed="false" populationMethod="method call" qualifiedName="manager.Connector" stemName="me_dao.DaoUser" text="Connector"/>
+    <entry isSeed="false" populationMethod="dependency" qualifiedName="manager.Connector2" stemName="de_dao.DaoUser" text="Connector2"/>
+    <entry isSeed="false" populationMethod="method call" qualifiedName="manager.Connector2" stemName="me_dao.DaoUser" text="Connector2"/>
+    <entry isSeed="false" populationMethod="dependency" qualifiedName="manager.Connector3" stemName="de_dao.DaoUser" text="Connector3"/>
+    <entry isSeed="false" populationMethod="method call" qualifiedName="manager.Connector3" stemName="me_dao.DaoUser" text="Connector3"/>
+    <entry isSeed="false" populationMethod="dependency" qualifiedName="manager.Connector4" stemName="de_dao.DaoUser" text="Connector4"/>
+    <entry isSeed="false" populationMethod="method call" qualifiedName="manager.Connector4" stemName="me_dao.DaoUser" text="Connector4"/>
+    <entry isSeed="false" populationMethod="dependency" qualifiedName="manager.Connector5" stemName="de_dao.DaoUser" text="Connector5"/>
+    <entry isSeed="false" populationMethod="method call" qualifiedName="manager.Connector5" stemName="me_dao.DaoUser" text="Connector5"/>
+    <entry isSeed="false" populationMethod="dependency" qualifiedName="manager.Connector6" stemName="de_dao.DaoUser" text="Connector6"/>
+    <entry isSeed="false" populationMethod="method call" qualifiedName="manager.Connector6" stemName="me_dao.DaoUser" text="Connector6"/>
+    <entry isSeed="false" populationMethod="dependency" qualifiedName="dao.DaoFactory" stemName="de_dao.DaoUser" text="DaoFactory"/>
+    <entry isSeed="false" populationMethod="method call" qualifiedName="dao.DaoFactory" stemName="me_commands.AddUser" text="DaoFactory"/>
+    <entry isSeed="false" populationMethod="method call" qualifiedName="dao.DaoFactory" stemName="me_commands.CheckUser" text="DaoFactory"/>
+    <entry isSeed="false" populationMethod="dependency" qualifiedName="dao.DaoUser" stemName="de_dao.DaoUser" text="DaoUser"/>
+    <entry isSeed="false" populationMethod="method call" qualifiedName="dao.DaoUser" stemName="me_commands.AddUser" text="DaoUser"/>
+    <entry isSeed="false" populationMethod="method call" qualifiedName="dao.DaoUser" stemName="me_commands.CheckUser" text="DaoUser"/>
+    <entry isSeed="false" populationMethod="method call" qualifiedName="dao.DaoUser" stemName="me_dao.DaoUser" text="DaoUser"/>
+    <entry isSeed="false" populationMethod="dependency" qualifiedName="org.apache.commons.math3.linear.DecompositionSolver" stemName="de_arithmetic.LinearCalc" text="DecompositionSolver"/>
+    <entry isSeed="false" populationMethod="inheritance" qualifiedName="servlet.Dispatcher" stemName="in_servlet.Dispatcher" text="Dispatcher"/>
+    <entry isSeed="false" populationMethod="method call" qualifiedName="servlet.Dispatcher" stemName="me_commands.AddUser" text="Dispatcher"/>
+    <entry isSeed="false" populationMethod="method call" qualifiedName="servlet.Dispatcher" stemName="me_commands.CheckUser" text="Dispatcher"/>
+    <entry isSeed="false" populationMethod="package" qualifiedName="commands.Execute" stemName="pa_commands" text="Execute"/>
+    <entry isSeed="false" populationMethod="dependency" qualifiedName="org.apache.commons.math3.linear.LUDecomposition" stemName="de_arithmetic.LinearCalc" text="LUDecomposition"/>
+    <entry isSeed="false" populationMethod="dependency" qualifiedName="arithmetic.LinearCalc" stemName="de_arithmetic.LinearCalc" text="LinearCalc"/>
+    <entry isSeed="false" populationMethod="method call" qualifiedName="arithmetic.LinearCalc" stemName="me_commands.CheckUser" text="LinearCalc"/>
+    <entry isSeed="false" populationMethod="inheritance" qualifiedName="commands.LogOut" stemName="in_servlet.Dispatcher" text="LogOut"/>
+    <entry isSeed="false" populationMethod="package" qualifiedName="commands.LogOut" stemName="pa_commands" text="LogOut"/>
+    <entry isSeed="false" populationMethod="dependency" qualifiedName="org.apache.commons.math3.linear.RealMatrix" stemName="de_arithmetic.LinearCalc" text="RealMatrix"/>
+    <entry isSeed="false" populationMethod="dependency" qualifiedName="org.apache.commons.math3.linear.RealVector" stemName="de_arithmetic.LinearCalc" text="RealVector"/>
+</index>

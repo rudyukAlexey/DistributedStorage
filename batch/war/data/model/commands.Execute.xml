@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AgileJWebModel version="1.8.3.v20151019-2113">
+    <type deep="true" displayTextTemplate="commands.Execute" elementName="Execute" fileNameKey="commands.Execute.xml" formalDisplayName="Execute" isBinary="false" isClass="false" isDeprecated="false" isEnum="false" isInterface="true" isPrimitive="false" isTopLevel="true" javaProjectName="DistributedStorage" modelMemberIdentifier="type:commands.Execute" modifiers="public," packageName="commands" qualifiedName="commands.Execute">
+        <filters>
+            <filter signature="all interfaces"/>
+            <filter signature="all types"/>
+            <filter signature="inner types named {type-name}" switchValues="Execute"/>
+            <filter signature="members of package {package-name}" switchValues="commands"/>
+            <filter signature="non java star package types"/>
+            <filter signature="public types"/>
+            <filter signature="source code types"/>
+            <filter signature="top level source types"/>
+            <filter signature="top level types"/>
+            <filter signature="types named {type-name-pattern}" switchValues="Execute"/>
+        </filters>
+        <outermostType>
+            <type deep="false" displayTextTemplate="commands.Execute" elementName="Execute" formalDisplayName="Execute" modelMemberIdentifier="type:commands.Execute" modifiers="public," packageName="commands" qualifiedName="commands.Execute"/>
+        </outermostType>
+        <method deep="true" elementName="execute" isBinary="false" isDeprecated="false" modelMemberIdentifier="method:commands.Execute.execute((QHttpServletRequest;QHttpServletResponse;)QString;)" modifiers="public,">
+            <filters>
+                <filter signature="all methods"/>
+                <filter signature="all operations"/>
+                <filter signature="methods named {method-name-pattern}" switchValues="execute"/>
+                <filter signature="methods of {method-owner}" switchValues="Execute"/>
+                <filter signature="public methods"/>
+            </filters>
+            <declarer>
+                <type deep="false" displayTextTemplate="commands.Execute" elementName="Execute" formalDisplayName="Execute" modelMemberIdentifier="type:commands.Execute" modifiers="public," packageName="commands" qualifiedName="commands.Execute"/>
+            </declarer>
+            <exceptions>
+                <type deep="false" displayTextTemplate="javax.servlet.ServletException" elementName="ServletException" formalDisplayName="ServletException" modelMemberIdentifier="type:javax.servlet.ServletException" modifiers="public," packageName="javax.servlet" qualifiedName="javax.servlet.ServletException"/>
+                <type deep="false" displayTextTemplate="java.io.IOException" elementName="IOException" formalDisplayName="IOException" modelMemberIdentifier="type:java.io.IOException" modifiers="public," packageName="java.io" qualifiedName="java.io.IOException"/>
+            </exceptions>
+            <return>
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+                    </containedType>
+                </typeReference>
+            </return>
+            <parameter name="request">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="javax.servlet.http.HttpServletRequest" elementName="HttpServletRequest" formalDisplayName="HttpServletRequest" modelMemberIdentifier="type:javax.servlet.http.HttpServletRequest" modifiers="abstract,public," packageName="javax.servlet.http" qualifiedName="javax.servlet.http.HttpServletRequest"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="javax.servlet.http.HttpServletRequest" elementName="HttpServletRequest" formalDisplayName="HttpServletRequest" modelMemberIdentifier="type:javax.servlet.http.HttpServletRequest" modifiers="abstract,public," packageName="javax.servlet.http" qualifiedName="javax.servlet.http.HttpServletRequest"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <parameter name="response">
+                <typeReference arrayDimensions="0" many="false">
+                    <rawType>
+                        <type deep="false" displayTextTemplate="javax.servlet.http.HttpServletResponse" elementName="HttpServletResponse" formalDisplayName="HttpServletResponse" modelMemberIdentifier="type:javax.servlet.http.HttpServletResponse" modifiers="abstract,public," packageName="javax.servlet.http" qualifiedName="javax.servlet.http.HttpServletResponse"/>
+                    </rawType>
+                    <containedType>
+                        <type deep="false" displayTextTemplate="javax.servlet.http.HttpServletResponse" elementName="HttpServletResponse" formalDisplayName="HttpServletResponse" modelMemberIdentifier="type:javax.servlet.http.HttpServletResponse" modifiers="abstract,public," packageName="javax.servlet.http" qualifiedName="javax.servlet.http.HttpServletResponse"/>
+                    </containedType>
+                </typeReference>
+            </parameter>
+            <calledMethods/>
+        </method>
+        <nonRecursiveSubtypes/>
+        <recursiveSubtypes/>
+        <nonRecursiveSupertypes/>
+        <recursiveSupertypes/>
+        <outwardDependencies>
+            <type deep="false" displayTextTemplate="javax.servlet.http.HttpServletRequest" elementName="HttpServletRequest" formalDisplayName="HttpServletRequest" modelMemberIdentifier="type:javax.servlet.http.HttpServletRequest" modifiers="abstract,public," packageName="javax.servlet.http" qualifiedName="javax.servlet.http.HttpServletRequest"/>
+            <type deep="false" displayTextTemplate="javax.servlet.ServletException" elementName="ServletException" formalDisplayName="ServletException" modelMemberIdentifier="type:javax.servlet.ServletException" modifiers="public," packageName="javax.servlet" qualifiedName="javax.servlet.ServletException"/>
+            <type deep="false" displayTextTemplate="javax.servlet.http.HttpServletResponse" elementName="HttpServletResponse" formalDisplayName="HttpServletResponse" modelMemberIdentifier="type:javax.servlet.http.HttpServletResponse" modifiers="abstract,public," packageName="javax.servlet.http" qualifiedName="javax.servlet.http.HttpServletResponse"/>
+            <type deep="false" displayTextTemplate="java.io.IOException" elementName="IOException" formalDisplayName="IOException" modelMemberIdentifier="type:java.io.IOException" modifiers="public," packageName="java.io" qualifiedName="java.io.IOException"/>
+            <type deep="false" displayTextTemplate="java.lang.String" elementName="String" formalDisplayName="String" modelMemberIdentifier="type:java.lang.String" modifiers="final,public," packageName="java.lang" qualifiedName="java.lang.String"/>
+        </outwardDependencies>
+    </type>
+    <icon data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAABf0lEQVR4nOVUXUsCQRT1t/ViKZT08WDqpqJBtGBagUSCFPRhkBTYB4jritsa2OJKUJIlBRqhUIYgREhEL0EP/YPb3IEdRF8me+zAYbnnnj17d3Z2TKYeNGofcLhVg5BbhwWhAMGZAq1R7/VyQ040aFhEvIR49I4Ra9SxP1Cof/IUdqO3oBw/gqa0GLFGHfu/Cn9tf4FnTIXtlQrkkk/Qi3bzk+o7kQr1oZ8rGNcwIl7A+lKZMrVXZ6HV8hvTkWuhEiTjD3zBix4d5ux5CLg0RgOlwgvT5h15SvRzBXttKjhH0uCyyGA3pygNaNkm07A/bZbIcpzwT+wmZpeV3DgsUbJg5ZnWRrDTkuafGNfMP5EDr00hD8iAMCqzYF1t0Rp1pG9chcwB585473zD1JAEAUGDjfBV366oXneoHiQ/Dfq4dwVC2q+TV81CePYcYqs3fRSdeTJtDtDHHdodLlizsOwrEupdLFJ9oFADeCYkNqsgOs7oB8XrUez+b2fF/8YPD2ecl9p99Q4AAAAASUVORK5CYII=" height="16" modelElementIdentifier="type:commands.Execute" width="22"/>
+    <icon data="iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAAA7klEQVR4nGNgoAL4DwQiVRYg6j81zIMbWr1vEthgEE01w5FdS1VX08Rg5GCAYYLBUbp9wn/WRs//elMT/oPYhFwLA3hd7bu4+H/8qpL/Wy7N/T/j2AQwGySGzWCDrgAUg2F8DEMLt/X+D1te8H/1+ZlIeAZYDCSHbjAugGEwc4PH/6a9Tf9b9rUg8P4WsBhIDmfYEQKyPWH/k1YBXbexDIpLwTRIDCRHtsEp61r/28+I/9+xs/F/x47G/51ADGLbT0/4D5Ij22AQcJ6T899rdur/6Xs7/jdtrQezQWIUGQoD+Ru74MkNxKaKoSMTAADT0xoKYwTuIgAAAABJRU5ErkJggg==" height="16" modelElementIdentifier="method:commands.Execute.execute((QHttpServletRequest;QHttpServletResponse;)QString;)" width="22"/>
+</AgileJWebModel>
